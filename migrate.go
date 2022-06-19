@@ -578,7 +578,7 @@ func (m *Migrate) readUp(from int, limit int, ret chan<- interface{}) {
 		}
 
 		// apply next migration
-		m.logPrintf("suint(%d)\n", from)
+		m.logPrintf("suint(%d)  \n", from)
 		next, err := m.sourceDrv.Next(suint(from))
 		if errors.Is(err, os.ErrNotExist) {
 			// no limit, but no migrations applied?
