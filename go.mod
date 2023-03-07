@@ -57,11 +57,9 @@ require (
 	gitlab.com/nyarla/go-crypt v0.0.0-20160106005555-d9a5dc2b789b // indirect
 	go.mongodb.org/mongo-driver v1.7.0
 	go.uber.org/atomic v1.7.0
-	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
-	golang.org/x/net v0.0.0-20220425223048-2871e0cb64e4 // indirect
+	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
-	golang.org/x/sys v0.0.0-20220503163025-988cb79eb6c6 // indirect
-	golang.org/x/tools v0.1.5
+	golang.org/x/tools v0.1.12
 	google.golang.org/api v0.62.0
 	google.golang.org/genproto v0.0.0-20220314164441-57ef72a4c106
 	modernc.org/b v1.0.0 // indirect
